@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}  
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+.navbar-links {
+    display: flex;
+    column-gap: 40px;
+    text-decoration: none;
+}
+.navbar-links a{
+    color:rgb(3, 3, 46) ;
+    text-decoration: none;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+}
+.navbar i{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .navbar i{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.side-navbar{
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(1, 1, 28);
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    transition: 3s;
+}
+.side-navbar a{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 5px;
+}
+.side-navbar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+
+}
+.main i{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10%;
+}
+.main img{
+    width: 400px;
+    height: 300px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.boxes{
+    display: flex;
+    padding: 15px;
+}
+.boxes div{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 5px;
+}
+.boxes div i{
+    margin: 10px;
+}
+.many-images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+}
+.many-images img{
+    width: 250px;
+    height: 250px;
+}
+.box-images{
+    position: relative;
+    flex-basis: 24%;
+    margin: 5px;
+}
+.many-images button{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    background-color: black;
+    color: bisque;
+    opacity: 75%;
+    padding: 15px;
+    border-radius: 10%;
+}
+.many-images2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+}
+.many-images2{
+    width: 250px;
+    height: 250px;
+}
+.newsletter{
+    text-align: center;
+    padding: 10px;
+}
+.newsletter textarea{
+    width: 75%;
+    height: 25px;
+    border: solid;
+    border-radius: 2px;
+
+    
+}
+.newsletter button{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10%;
+    display: block;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.details{
+    background-color:rgb(1, 1, 28) ;
+    color: antiquewhite;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+
+.searchbox{
+    margin-top: 35px;
+}
+.searchbox form{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 2px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+}
+.searchbox input{
+    border: none;
+    width: 100%;
+}
+.searchbox input:focus{
+    outline: none;
+}
+
+.searchimages{
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchimages div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    margin: 15px;
+    margin-left: 50px;
+}
+.searchimages div img{
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+}
+.searchimages div p{
+    align-items: center;
+}
+.contact{
+    background-color:rgb(1, 1, 28) ;
+    color: antiquewhite;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    margin-left: 20%;
+}
+.contact div input{
+    width: 100%;
+    border-radius: 5px;
+}
+.contact div{
+    margin: 20px;
+}
+.contact h4{
+    margin: 5px;
+}
+.contact div button{
+    padding: 10px;
+    background-color: rgb(15, 100, 106);
+    color:whitesmoke;
+    border-radius: 10px;
+
+}
